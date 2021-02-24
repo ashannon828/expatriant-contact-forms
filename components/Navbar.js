@@ -35,6 +35,23 @@ export default function Navbar({ size }) {
         <Box fill="vertical" direction="row">
           <ul className={style.ListFormat}>
             <li className={style.UnderlineAnimation}>
+              <Link href="https://expatriant.com/russia/">
+                <Box
+                  fill="vertical"
+                  justify="center"
+                  pad={{ left: "15px", right: "15px" }}
+                >
+                  <Text
+                    className={style.NavLink}
+                    size={size === "small" ? "12px" : "14px"}
+                    color="black"
+                  >
+                    Russia
+                  </Text>
+                </Box>
+              </Link>
+            </li>
+            <li className={style.UnderlineAnimation}>
               <Link href="https://jobs.expatriant.com/">
                 <Box
                   fill="vertical"
@@ -72,9 +89,78 @@ export default function Navbar({ size }) {
               </a>
             </li>
             <li className={style.UnderlineAnimation}>
+              <Link href="https://expatriant.com/russia/work/">
+                <Box
+                  fill="vertical"
+                  justify="center"
+                  pad={{ left: "15px", right: "15px" }}
+                >
+                  <Text
+                    className={style.NavLink}
+                    size={size === "small" ? "12px" : "14px"}
+                    color="black"
+                  >
+                    Work
+                  </Text>
+                </Box>
+              </Link>
+            </li>
+            <li className={style.UnderlineAnimation}>
+              <Link href="https://expatriant.com/russia/education/">
+                <Box
+                  fill="vertical"
+                  justify="center"
+                  pad={{ left: "15px", right: "15px" }}
+                >
+                  <Text
+                    className={style.NavLink}
+                    size={size === "small" ? "12px" : "14px"}
+                    color="black"
+                  >
+                    Education
+                  </Text>
+                </Box>
+              </Link>
+            </li>
+            <li className={style.UnderlineAnimation}>
+              <Link href="https://expatriant.com/russia/expat-life/">
+                <Box
+                  fill="vertical"
+                  justify="center"
+                  pad={{ left: "15px", right: "15px" }}
+                >
+                  <Text
+                    className={style.NavLink}
+                    size={size === "small" ? "12px" : "14px"}
+                    color="black"
+                  >
+                    Expat Life
+                  </Text>
+                </Box>
+              </Link>
+            </li>
+            <li className={style.UnderlineAnimation}>
+              <Link href="https://expatriant.com/blog/">
+                <Box
+                  fill="vertical"
+                  justify="center"
+                  pad={{ left: "15px", right: "15px" }}
+                >
+                  <Text
+                    className={style.NavLink}
+                    size={size === "small" ? "12px" : "14px"}
+                    color="black"
+                  >
+                    Blog
+                  </Text>
+                </Box>
+              </Link>
+            </li>
+
+            <li className={style.UnderlineAnimation}>
               <a
                 className={style.NavAnchorTag}
-                href="https://expatriant.com/russia/residency/"
+                href="https://expatriant.com/about-us/"
               >
                 <Box
                   fill="vertical"
