@@ -16,7 +16,12 @@ export default function Home() {
               <Anchor href="/residency">Residency Abroad</Anchor>
             </Box>
             <Box pad="small">
-              <Anchor href="/">Career Consultation</Anchor>
+              <Anchor
+                target="_blank"
+                href="https://calendly.com/expatriant-consultation/career"
+              >
+                Career Consultation
+              </Anchor>
             </Box>
           </Box>
         </Box>
