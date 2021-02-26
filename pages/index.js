@@ -9,13 +9,13 @@ export default function Home() {
         <title>Contact Us - Expatriant</title>
       </Head>
       <main>
-        <Box pad="medium" margin="large">
+        <Box align="center" margin="large">
           <Heading size="small">How can we help?</Heading>
           <Box direction="row">
-            <Box pad="small">
+            <Box margin="0.5rem 0.5rem 0.5rem 0">
               <Anchor href="/residency">Residency Abroad</Anchor>
             </Box>
-            <Box pad="small">
+            <Box margin="0.5rem 0 0.5rem 0.5rem">
               <Anchor
                 target="_blank"
                 href="https://calendly.com/expatriant-consultation/career"
