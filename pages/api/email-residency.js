@@ -78,7 +78,9 @@ export default async (req, res) => {
   const sendEmailRes = await sendEmail(
     email,
     '"Expatriant" <info@expatriant.com>',
-    `${relocate_to}`,
+    `Applying for Residence in ${
+      relocate_to.charAt(0).toUpperCase() + relocate_to.substr(1).toLowerCase()
+    }`,
     `${relocationDocs.default[relocation_country]}\n\n\n>>Name: ${name}\n>>Email: ${email}\n>>Nationality: ${citizenship}\n>>Relocate to: ${relocate_to}\n>>Message:\n${message}`
   );
 
