@@ -8,8 +8,6 @@ apiKey.apiKey = process.env.SENDINBLUE_API_KEY;
 
 const relocationDocs = require("./data/residency_emails");
 
-console.log(relocationDocs.default.russia);
-
 const addToSendinblue = async (contact, listId) => {
   const { citizenship, email, name, relocate_to } = contact;
 
