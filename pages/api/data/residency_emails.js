@@ -2431,7 +2431,7 @@ ul {mso-special-format:bullet;}
                                                             <table valign="top" class="rnb-col-1" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
 
                                                                 <tbody><tr>
-                                                                    <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858;"><div><span style="font-size:18px;">After the call, if you decide to apply for a residence permit in Ukraine, we will put you in touch with a verified lawyer in Moscow.</span></div>
+                                                                    <td style="font-size:14px; font-family:Arial,Helvetica,sans-serif, sans-serif; color:#3c4858;"><div><span style="font-size:18px;">After the call, if you decide to apply for a residence permit in Ukraine, we will put you in touch with a verified lawyer.</span></div>
 </td>
                                                                 </tr>
                                                                 </tbody></table>
